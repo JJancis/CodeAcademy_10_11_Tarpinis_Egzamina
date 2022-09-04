@@ -1,0 +1,32 @@
+section {
+  .container {
+    min-height: 500px;
+    @include top-style;
+    padding: 50px 10px;
+    text-align: center;
+  }
+  .small-container {
+    justify-content: center;
+    min-height: 250px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1,
+    h2 {
+      color: #fff;
+      max-width: 80%;
+      text-align: center;
+      font-size: 2.5em;
+      font-family: $font;
+      line-height: 50px;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+    p {
+      line-height: 25px;
+    }
+  }
+}

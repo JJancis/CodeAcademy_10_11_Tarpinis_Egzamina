@@ -1,0 +1,12 @@
+nav {
+  z-index: 2;
+  background: $light-grey;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  @include top-style;
+  max-width: 100%;
+  a {
+    margin: 0 10%;
+  }
+}

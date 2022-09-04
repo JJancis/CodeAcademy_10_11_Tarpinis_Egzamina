@@ -1,0 +1,25 @@
+article {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  &:nth-of-type(even) {
+    flex-direction: row;
+  }
+  img {
+    width: 50%;
+    object-fit: cover;
+  }
+  div {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    span {
+      width: 60%;
+      line-height: 2rem;
+      h2 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

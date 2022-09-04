@@ -1,0 +1,81 @@
+// Nav
+@media (max-width: 768px) {
+  nav a {
+    margin: 0;
+  }
+}
+
+// Section
+@media (max-width: 768px) {
+  #masthead .content {
+    margin: 0;
+    padding: 100px 0;
+    form {
+      text-align: center;
+      input {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      button {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+}
+// About section
+@media (max-width: 768px) {
+  #about-section {
+    padding: 70px 5%;
+    .container {
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+}
+// Showcase
+@media (max-width: 768px) {
+  article {
+    display: flex;
+    flex-direction: column;
+    &:nth-of-type(even) {
+      flex-direction: column;
+    }
+    img {
+      width: 100%;
+    }
+    div {
+      width: 100%;
+      padding: 8%;
+      span {
+        width: 100%;
+      }
+    }
+  }
+}
+// testimonials
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    margin: auto;
+  }
+}
+//footer
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 3rem 10%;
+    ul {
+      white-space: nowrap;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

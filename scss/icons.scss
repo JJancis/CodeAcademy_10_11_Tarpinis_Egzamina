@@ -1,0 +1,14 @@
+.las {
+  font-size: 70px;
+  color: $blue;
+}
+.lab {
+  font-size: 30px;
+  color: $blue;
+  margin: 10px;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.5);
+    color: grey;
+  }
+}

@@ -1,0 +1,23 @@
+footer {
+  background: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 11%;
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    gap: 10px;
+    a {
+      color: $blue;
+      &:hover {
+        color: grey;
+      }
+    }
+  }
+  p {
+    font-size: 0.8rem;
+    color: grey;
+  }
+}
