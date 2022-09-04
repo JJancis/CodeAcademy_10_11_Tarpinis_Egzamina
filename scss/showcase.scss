@@ -1,5 +1,5 @@
 article {
-  background: #ffffff;
+  background: $white;
   display: flex;
   flex-direction: row-reverse;
   &:nth-of-type(even) {
@@ -10,9 +10,8 @@ article {
     object-fit: cover;
   }
   div {
-    display: flex;
+    @include center;
     width: 50%;
-    align-items: center;
     justify-content: center;
     span {
       width: 60%;

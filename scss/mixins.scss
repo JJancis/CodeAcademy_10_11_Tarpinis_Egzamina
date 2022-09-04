@@ -1,7 +1,10 @@
-@mixin top-style {
+@mixin center {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+@mixin top-style {
+  @include center;
+  justify-content: space-between;
   max-width: 1200px;
   margin: auto;
   padding: 5px 30px;

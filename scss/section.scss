@@ -4,18 +4,20 @@ section {
     @include top-style;
     padding: 50px 10px;
     text-align: center;
+    gap: 70px;
   }
   .small-container {
     justify-content: center;
     min-height: 250px;
   }
   .content {
-    display: flex;
+    @include center;
     flex-direction: column;
-    align-items: center;
+
+    gap: 10px;
     h1,
     h2 {
-      color: #fff;
+      color: $white;
       max-width: 80%;
       text-align: center;
       font-size: 2.5em;

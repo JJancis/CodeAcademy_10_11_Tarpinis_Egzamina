@@ -1,8 +1,8 @@
 footer {
-  background: #f8f9fa;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background: $light-grey;
+  @include center;
+   justify-content: space-between;
+
   padding: 3rem 11%;
   ul {
     display: flex;
@@ -12,12 +12,12 @@ footer {
     a {
       color: $blue;
       &:hover {
-        color: grey;
+        color: $grey;
       }
     }
   }
   p {
     font-size: 0.8rem;
-    color: grey;
+    color: $grey;
   }
 }
